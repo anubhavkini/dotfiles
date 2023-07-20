@@ -1,0 +1,7 @@
+[user]
+  name = "Anubhav Kini"
+  email = "anubhavkini@pm.me"
+  signingKey = "CB79992D"
+
+[commit]
+  gpgSign = true

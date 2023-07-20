@@ -1,0 +1,6 @@
+[Unit]
+Description=Prevent Eye Strain.
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/bin/eye-strain-notify.sh

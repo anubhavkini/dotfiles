@@ -1,0 +1,10 @@
+[Unit]
+Description=Prevent Eye Strain.
+PartOf=graphical-session.target
+
+[Timer]
+OnActiveSec=1200
+OnUnitInactiveSec=1200
+
+[Install]
+WantedBy=graphical-session.target
