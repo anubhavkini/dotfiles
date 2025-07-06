@@ -1,0 +1,6 @@
+[Unit]
+Description=Rclone bisync job
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/bin/rclone-bisync.sh
